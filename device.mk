@@ -18,7 +18,8 @@ PRODUCT_SHIPPING_API_LEVEL := 28
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-pe 
 
 # Display Device Config
 PRODUCT_COPY_FILES += \
